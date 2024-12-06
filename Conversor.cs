@@ -64,9 +64,10 @@ class Introdução{
         Console.WriteLine("Fazer outro calculo ? (s/n)");
 
         string continuar = Console.ReadLine();
-        switch (continuar){
-            case "s": MoedaAtual();  break;
-            default: System.Environment.Exit(0); break;
+        if (continuar == "s"){
+            MoedaAtual();
+        }else{
+            System.Environment.Exit(0);
         }
     }
         static void Dóla(){
@@ -103,11 +104,13 @@ class Introdução{
         Console.WriteLine("Fazer outro calculo ? (s/n)");
 
         string continuar = Console.ReadLine();
-        switch (continuar){
-            case "s": MoedaAtual();  break;
-            default: System.Environment.Exit(0); break;
+        if (continuar == "s"){
+            MoedaAtual();
+        }else{
+            System.Environment.Exit(0);
+            }
         }
-    }
+
         static void Euro(){
         
         Console.Clear();
@@ -142,9 +145,10 @@ class Introdução{
         Console.WriteLine("Fazer outro calculo ? (s/n)");
 
         string continuar = Console.ReadLine();
-        switch (continuar){
-            case "s": MoedaAtual();  break;
-            default: System.Environment.Exit(0); break;
+        if (continuar == "s"){
+            MoedaAtual();
+        }else{
+            System.Environment.Exit(0);
         }
     }
         static void Iene(){
@@ -181,9 +185,10 @@ class Introdução{
         Console.WriteLine("Fazer outro calculo ? (s/n)");
 
         string continuar = Console.ReadLine();
-        switch (continuar){
-            case "s": MoedaAtual();  break;
-            default: System.Environment.Exit(0); break;
+        if (continuar == "s"){
+            MoedaAtual();
+        }else{
+            System.Environment.Exit(0);
         }
     }
 }
